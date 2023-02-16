@@ -14,7 +14,7 @@ public class NonConstructibleChange {
 
         int change = 0;
         Arrays.sort(coins);
-        
+
         if (coins.length == 0) {
             return 1;
         }
