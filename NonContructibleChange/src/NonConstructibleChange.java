@@ -14,6 +14,10 @@ public class NonConstructibleChange {
 
         int change = 0;
         Arrays.sort(coins);
+        
+        if (coins.length == 0) {
+            return 1;
+        }
 
         for (int i = 0; i < coins.length; i++) {
             if (coins[i] > change + 1) {
