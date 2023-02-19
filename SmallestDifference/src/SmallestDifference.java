@@ -10,12 +10,7 @@ public class SmallestDifference {
 
         int result[] = smallestDifference(arrayOne, arrayTwo);
 
-        Set<Integer> map = new HashSet<>();
-
-        for (int i = 0; i < result.length; i++) {
-            map.add(result[i]);
-        }
-        System.out.println(map);
+        System.out.println(Arrays.toString(result));
 
     }
 
