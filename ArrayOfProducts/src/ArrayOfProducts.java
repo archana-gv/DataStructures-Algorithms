@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ArrayOfProducts {
@@ -6,11 +7,8 @@ public class ArrayOfProducts {
 
         int array[] = {5, 1, 4, 2};
         int result[] = arrayOfProducts(array);
-        List<Integer> list = new ArrayList<>();
-        for (int i = 0; i < result.length; i++) {
-            list.add(result[i]);
-        }
-        System.out.println(list);
+
+        System.out.println(Arrays.toString(result));
     }
 
     public static int[] arrayOfProducts(int[] array) {
