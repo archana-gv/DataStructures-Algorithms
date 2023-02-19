@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -7,11 +8,7 @@ public class TwoNumberSum {
         int array[] = {3, 5, -4, 8, 11, 1, -1, 6};
         int targetSum = 10;
         int result[] = twoNumberSum(array, targetSum);
-        Set<Integer> map = new HashSet<>();
-        for (int i = 0; i < result.length; i++) {
-            map.add(result[i]);
-        }
-        System.out.println(map);
+        System.out.println(Arrays.toString(result));
     }
 
     public static int[] twoNumberSum(int[] array, int targetSum) {
