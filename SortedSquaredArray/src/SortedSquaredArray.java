@@ -5,12 +5,8 @@ public class SortedSquaredArray {
 
         int array[] = {1, 2, 3, 5, 6, 8, 9};
         int ans[] = sortedSquaredArray(array);
-        List<Integer> res = new ArrayList<>();
 
-        for (int i = 0; i < ans.length; i++) {
-            res.add(ans[i]);
-        }
-        System.out.println(res);
+        System.out.println(Arrays.toString(ans));
     }
 
     public static int[] sortedSquaredArray(int[] array) {
